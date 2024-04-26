@@ -451,3 +451,17 @@ input:not(.check,.boton), select {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.pelicula:hover .tituloPelicula {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pelicula:hover h4 {
+    width: 100%;
+    padding: 0.5rem;
+    opacity: 1;
+}
