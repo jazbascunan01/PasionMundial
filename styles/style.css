@@ -451,6 +451,10 @@ input:not(.check,.boton), select {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.pelicula:hover{
+    box-shadow: 0 0 30px #369f3bcd;
+    transform: scale(0.9);
+}
 .pelicula:hover .tituloPelicula {
     width: 100%;
     height: 100%;
